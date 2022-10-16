@@ -1,3 +1,6 @@
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+
 import FooterCard from "./FooterCard";
 
 import "./Footer.css";
@@ -16,8 +19,8 @@ const Footer = () => {
                     <div>clement.herbin@hotmail.com</div>
                 </FooterCard>
                 <FooterCard title={"Follow"}>
-                    <div>Github</div>
-                    <div>LinkedIn</div>
+                    <a href="https://github.com/Herbin-Clement"><AiFillGithub size={"15px"}/></a>
+                    <a href="https://www.linkedin.com/in/clement-herbin/"><AiFillLinkedin size={"15px"}/></a>
                 </FooterCard>
             </div>
         </div>

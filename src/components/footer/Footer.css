@@ -31,5 +31,6 @@
 
 .footer-card-content {
     display: flex;
+    justify-content: center;
     font-size: small;
 }
