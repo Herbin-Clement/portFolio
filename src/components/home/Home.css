@@ -86,3 +86,27 @@
     font-size: 50px;
     font-weight: bold;
 }
+
+.home-content-right-text {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.button-resume-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-resume {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    background-color: #303030;
+    color: white;
+    cursor: pointer;
+}
+
+.button-resume:hover {
+    background-color: #404040;
+}

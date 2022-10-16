@@ -21,11 +21,21 @@ const Home = () => {
                 </div>
                 <div className="home-content-mid"></div>
                 <div className="home-content-right">
-                    <div className="home-content-right-title">Hello !</div>
-                    <div>
+                    <div className="home-content-right-title">Hello <span className="orange">!</span></div>
+                    <div className="home-content-right-text">
                     ​I'm a first year computer science student at ENSEEIHT in Toulouse, France.
                     My goal is to work in Artificial Intelligence and Data Science, more precisely in Computer Vision.
                     I'm passionate about space.
+                    </div>
+                    <div className="button-resume-container">
+                        <button 
+                            className="button-resume"
+                            onClick={() => window.location.href = "https://hclement.fr/pdf/english_resume.pdf"}
+                        >English resume</button>
+                        <button 
+                            className="button-resume"
+                            onClick={() => window.location.href = "https://hclement.fr/pdf/french_resume.pdf"}
+                        >French resume</button>
                     </div>
                 </div>
             </div>
