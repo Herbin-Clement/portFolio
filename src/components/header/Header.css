@@ -6,6 +6,7 @@
     width: 100%;
     height: 10vh;
     padding: 0 50px;
+    box-shadow: 0px 0px 32px 6px rgba(0,0,0,0.69);
     background-color: #FFFFFF;
     font-size: medium;
 }
@@ -14,9 +15,10 @@
     margin-left: 10px;
 }
 
-.header-title > span {
+.header-title-name {
     font-size: x-large;
     font-weight: bold;
+    color: black;
 }
 
 .header-list {
@@ -30,9 +32,13 @@
 }
 
 .header-list-component:hover {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #f39c12;
 }
 
 .active {
-    color: blue;
+    color: #f39c12;
+}
+
+.orange {
+    color: #f39c12;
 }

@@ -1,0 +1,55 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.resume-title {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.resume-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 32px 6px rgba(0,0,0,0.69);
+    background-color: #303030;
+    color: white;
+}
+
+.resume-card-title {
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    color: #f39c12;
+}
+
+.resume-card-content {
+    display: flex;
+}
+
+.resume-card-info {
+    width: 40%;
+}
+
+.resume-card-company {
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.resume-card-place {
+    color: #fa983a;
+}
+
+.resume-card-text {
+    width: 60%;
+}
