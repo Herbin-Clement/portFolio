@@ -1,3 +1,61 @@
+@media (min-width: 1080px) {
+    .resume-card {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin-bottom: 20px;
+        padding: 10px 25px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 32px 6px rgba(0,0,0,0.69);
+        background-color: #303030;
+        color: white;
+    }
+
+    .resume-card-content {
+        display: flex;
+    }
+
+    .resume-card-info {
+        width: 40%;
+    }
+
+    .resume-card-text {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .resume-card {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-bottom: 20px;
+        padding: 10px 25px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 32px 6px rgba(0,0,0,0.69);
+        background-color: #303030;
+        color: white;
+    }
+
+    .resume-card-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume-card-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .resume-card-text {
+        text-align: center;
+    }
+}
+
 .resume {
     display: flex;
     flex-direction: column;
@@ -12,33 +70,12 @@
     color: white;
 }
 
-.resume-card {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    margin-bottom: 20px;
-    padding: 10px 25px;
-    border-radius: 2px;
-    box-shadow: 0px 0px 32px 6px rgba(0,0,0,0.69);
-    background-color: #303030;
-    color: white;
-}
-
 .resume-card-title {
     margin-bottom: 10px;
     font-size: x-large;
     font-weight: 600;
     text-align: center;
     color: #f39c12;
-}
-
-.resume-card-content {
-    display: flex;
-}
-
-.resume-card-info {
-    width: 40%;
 }
 
 .resume-card-company {
@@ -48,8 +85,4 @@
 
 .resume-card-place {
     color: #fa983a;
-}
-
-.resume-card-text {
-    width: 60%;
 }
