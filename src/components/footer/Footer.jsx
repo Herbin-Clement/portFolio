@@ -12,6 +12,9 @@ const Footer = () => {
                 © 2023 by Herbin Clément
             </div>
             <div className="footer-right">
+                <FooterCard title={"Place"}>
+                    <div>Toulouse, France</div>
+                </FooterCard>
                 <FooterCard title={"Call"}>
                     <div>06 37 78 64 42</div>
                 </FooterCard>
