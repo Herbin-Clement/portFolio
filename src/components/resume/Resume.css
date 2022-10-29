@@ -57,11 +57,13 @@
 }
 
 .resume {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     min-height: 80vh;
+    padding: 25px 0;
 }
 
 .resume-title {
