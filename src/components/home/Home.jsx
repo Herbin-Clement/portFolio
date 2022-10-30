@@ -1,11 +1,11 @@
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
-
 import "./Home.css";
 
 import me from '../../assets/me.jpg';
+import pitch from '../../assets/pitch.mp4';
 
-const Home = () => {
+const Home = ({isVideo}) => {
     return (
         <div className="home">
             <div className="home-content">
@@ -39,6 +39,17 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            { isVideo &&
+                <>
+                    <div className="home-video-separator"></div>
+                    <div className="home-video">
+                        <div className="home-video-title">Presentation</div>
+                        <video controls className="pitch">
+                            <source src={pitch} type="video/mp4"></source>
+                        </video>
+                    </div>
+                </>
+            }
         </div>
     )
 };

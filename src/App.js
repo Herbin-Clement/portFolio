@@ -3,7 +3,7 @@ import MainSHS from "./components/MainSHS";
 
 import "./App.css";
 
-const isMain = true;
+const isMain = false;
 
 const App = () => {
   return (

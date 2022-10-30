@@ -3,13 +3,12 @@ import { useState } from "react";
 import Header from "./header/Header";
 import Home from "./home/Home";
 import Resume from "./resume/Resume";
-import Projects from "./projects/Projects";
 import Footer from "./footer/Footer";
 
 const MainSHS = () => {
   
-  const pages = [<Home key={0}/>, <Resume key={1}/>, <Projects key={2}/>];
-  const pagenames = ["Home", "Resume", "Projects"]
+  const pages = [<Home key={0} isVideo={true}/>, <Resume key={1}/>];
+  const pagenames = ["Home", "Resume"]
 
   const [currentPage, setCurrentPage] = useState(0);
 
@@ -20,7 +19,7 @@ const MainSHS = () => {
 
   return (
     <div className="App">
-      <Header callback={ChangePage} id={currentPage}/>
+      <Header callback={ChangePage} id={currentPage} pages={pagenames}/>
       {
         pages.map((page, n) => {
           return n === currentPage && page;

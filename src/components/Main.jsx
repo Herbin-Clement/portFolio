@@ -20,7 +20,7 @@ const Main = () => {
 
   return (
     <div className="App">
-      <Header callback={ChangePage} id={currentPage}/>
+      <Header callback={ChangePage} id={currentPage} pages={pagenames}/>
       {
         pages.map((page, n) => {
           return n === currentPage && page;
