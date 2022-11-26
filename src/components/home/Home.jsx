@@ -26,6 +26,8 @@ const Home = ({isVideo}) => {
                     ​I'm a first year computer science student at ENSEEIHT in Toulouse, France.
                     My goal is to work in Artificial Intelligence and Data Science, more precisely in Computer Vision.
                     I'm passionate about space.
+                    <br/><br/>
+                    Here are my resumes in English and French.
                     </div>
                     <div className="button-resume-container">
                         <button 
