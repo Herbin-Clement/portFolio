@@ -23,7 +23,7 @@ const Home = ({isVideo}) => {
                 <div className="home-content-right">
                     <div className="home-content-right-title">Hello <span className="orange">!</span></div>
                     <div className="home-content-right-text">
-                    ​I'm a first year computer science student at ENSEEIHT in Toulouse, France.
+                    ​I'm a second year computer science student at ENSEEIHT in Toulouse, France.
                     My goal is to work in Artificial Intelligence and Data Science, more precisely in Computer Vision.
                     I'm passionate about space.
                     <br/><br/>
