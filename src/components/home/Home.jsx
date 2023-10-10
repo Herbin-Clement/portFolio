@@ -30,14 +30,12 @@ const Home = ({isVideo}) => {
                     Here are my resumes in English and French.
                     </div>
                     <div className="button-resume-container">
-                        <button 
-                            className="button-resume"
-                            onClick={() => window.location.href = "https://hclement.fr/pdf/english_resume.pdf"}
-                        >English resume</button>
-                        <button 
-                            className="button-resume"
-                            onClick={() => window.location.href = "https://hclement.fr/pdf/french_resume.pdf"}
-                        >French resume</button>
+                        <a href="./english_resume.pdf" type="application/pdf" target="_blank">
+                            <button  className="button-resume">English resume</button>
+                        </a>
+                        <a href="./french_resume.pdf" type="application/pdf" target="_blank">
+                            <button  className="button-resume">French resume</button>
+                        </a>
                     </div>
                 </div>
             </div>

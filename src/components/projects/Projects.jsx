@@ -17,7 +17,7 @@ const Project = () => {
                 name={"Graph algorithm visualisation"} 
                 date={"2022"}
                 github={"https://github.com/Herbin-Clement/graph-visu"}
-                website={"https://graph.hclement.fr"}
+                // website={"https://graph.hclement.fr"}
                 stack="HTML, CSS, JS, ReactJS">
                 <div>Realization of a web application which can display different algorithm using graph.</div>
             </ProjectCard>
